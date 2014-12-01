@@ -7,6 +7,6 @@ dpkg -n npm &>/dev/null || {
   ln -s /usr/bin/nodejs /usr/bin/node
 }
 
-command -v hubot &>/dev/null || {
-  npm install -g hubot coffee-script
+command -v yo &>/dev/null || {
+  sudo npm install -g yo generator-hubot
 }
